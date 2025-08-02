@@ -18,10 +18,10 @@ export const oauth_url = process.env.API_URL + '/user/github'
 export const client = treaty<Server>(endpoint)
 listenSystemMode()
 i18n
-  .use(Backend)
-  .use(LanguageDetector)
-  .use(initReactI18next) // passes i18n down to react-i18next
-  .init({
+  。use(Backend)
+  。use(LanguageDetector)
+  。use(initReactI18next) // passes i18n down to react-i18next
+  。init({
     backend: {
       loadPath: '/locales/{{lng}}/{{ns}}.json',
     },
@@ -37,6 +37,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Helmet>
       <title>{siteName}</title>
+      <meta name="msvalidate.01" content="BB567D6EAB6D25F708E01736634AA5E7" />
+      <meta name="google-site-verification" content="mNBIgvmRQfGaYhXGhoBt-j4jeneUI-o5Pum2GDt3zrs" />
     </Helmet>
     <App />
   </React.StrictMode>
