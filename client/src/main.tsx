@@ -37,8 +37,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Helmet>
       <title>{siteName}</title>
-      <meta name="msvalidate.01" content="BB567D6EAB6D25F708E01736634AA5E7" />
-      <meta name="google-site-verification" content="mNBIgvmRQfGaYhXGhoBt-j4jeneUI-o5Pum2GDt3zrs" />
+      <meta name="robots" content="noindex, nofollow" />
     </Helmet>
     <App />
   </React.StrictMode>
